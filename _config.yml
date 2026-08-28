@@ -1,12 +1,8 @@
-# Jekyll Configuration - Minimal to avoid interfering with project files
+# This file is intentionally minimal to avoid interfering with the project
+# GitHub Pages cannot run this full-stack application
+# Please deploy your React frontend and Node.js backend separately
+
 exclude:
   - node_modules
   - frontend/node_modules
   - backend/node_modules
-  - frontend
-  - backend
-  - .git
-  - .gitignore
-
-# Build settings
-theme: jekyll-theme-primer
