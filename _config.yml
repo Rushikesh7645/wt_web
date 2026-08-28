@@ -1,4 +1,4 @@
-# Jekyll Configuration
+# Jekyll Configuration - Minimal to avoid interfering with project files
 exclude:
   - node_modules
   - frontend/node_modules
@@ -7,16 +7,6 @@ exclude:
   - backend
   - .git
   - .gitignore
-  - package.json
-  - package-lock.json
-  - README.md
-  - SETUP.md
-  - HOW_TO_REGISTER.md
-  - COMPLETE_GUIDE.md
-
-# Keep only essential files for the site
-include:
-  - index.html
 
 # Build settings
 theme: jekyll-theme-primer
